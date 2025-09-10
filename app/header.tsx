@@ -14,7 +14,7 @@ export function Header() {
         <div style={{ height: "30px" }} /> {/* 30px empty space added */}
         <Link href="/" className="font-bold text-black dark:text-white">
           서준
-        </Link> | {" "}
+        </Link>{" "} · {" "}
         <TextLoop className="font-medium text-zinc-600 dark:text-zinc-300">
           <span>Min Jun "Mark" Sung</span>
           <span>성민준</span>
