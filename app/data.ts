@@ -29,47 +29,55 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+    name: '주식의 기초',
+    description: '금융소비자가 아닌, 투자자가 되는 법! - 이론 공부는 성공적인 투자의 기본입니다.',
+    link: 'https://class101.net/ko/products/6889d4e4177e821d7f06a4c4',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      '/stock_essentials.mp4',
     id: 'project1',
   },
+  // {
+  //   name: '주식투자자를 위한 재무제표',
+  //   description: '회계사가 아닌, 투자자가 알려주는 진짜 재무제표 분석법. - 실전에서 쓸모있는 지식만 담았습니다.',
+  //   link: 'https://class101.net/ko/products/68ba9cdab2042c997ae62236',
+  //   video:
+  //     '/financial_statements.mp4',
+  //   id: 'project2',
+  // },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: '미래 서버',
+    description:
+      '진짜 시장 경제를 구현한 마인크래프트 서버입니다.',
+    link: 'https://discord.gg/QV6TT9Fyv3',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
+      '/mirae_server_720p.mp4',
+    id: 'project3',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
+    company: '엘리시움 인베스트먼트',
     title: 'CEO',
-    start: '2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    start: '2022',
+    end: '2023',
+    link: 'https://www.linkedin.com/company/eic-korea',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    company: '스타일리더',
+    title: 'Sales Professional',
+    start: '2024',
+    end: '2025',
+    link: 'http://styleleader.co.kr',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
+    company: '미래 리서치',
+    title: 'CEO',
+    start: '2024',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://www.linkedin.com/company/themrsung',
     id: 'work3',
   },
 ]
@@ -106,20 +114,16 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/themrsung',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/themrsung',
   },
   {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    label: 'YouTube',
+    link: 'https://youtube.com/@themrsung',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'biz@sjun.me'
