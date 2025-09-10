@@ -12,10 +12,10 @@ export function Header() {
         </div>
         <div style={{ height: "30px" }} /> {/* 30px empty space added */}
         <Link href="/" className="font-bold text-black dark:text-white">
-          성민준
+          서준
         </Link>
-        <TextEffect className="font-medium text-black dark:text-white">
-          Min Jun "Mark" Sung - 서준
+        <TextEffect className="font-medium text-zinc-600 dark:text-zinc-300">
+          Min Jun "Mark" Sung - 성민준
         </TextEffect>
         <TextEffect
           as="p"
