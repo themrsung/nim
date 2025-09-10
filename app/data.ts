@@ -57,12 +57,20 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
+    company: 'Family Office',
+    title: 'Portfolio Manager',
+    start: '2016',
+    end: '2022',
+    link: '/',
+    id: 'work1',
+  },
+  {
     company: '엘리시움 인베스트먼트',
     title: 'CEO',
     start: '2022',
     end: '2023',
     link: 'https://www.linkedin.com/company/eic-korea',
-    id: 'work1',
+    id: 'work2',
   },
   {
     company: '스타일리더',
@@ -70,7 +78,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     start: '2024',
     end: '2025',
     link: 'http://styleleader.co.kr',
-    id: 'work2',
+    id: 'work3',
   },
   {
     company: '미래 리서치',
@@ -78,7 +86,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     start: '2024',
     end: 'Present',
     link: 'https://www.linkedin.com/company/themrsung',
-    id: 'work3',
+    id: 'work4',
   },
 ]
 
