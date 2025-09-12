@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
   {
     name: '주식의 기초',
     description: '금융소비자가 아닌, 투자자가 되는 법! - 이론 공부는 성공적인 투자의 기본입니다.',
-    link: 'https://class101.net/ko/products/6889d4e4177e821d7f06a4c4',
+    link: 'https://101creator.page.link/KqbD',
     video:
       '/stock_essentials.mp4',
     id: 'project1',
