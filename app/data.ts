@@ -121,17 +121,21 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/themrsung',
-  },
-  {
     label: 'YouTube',
     link: 'https://youtube.com/@themrsung',
   },
   {
-    label: 'Github',
-    link: 'https://github.com/themrsung',
+    label: 'Instagram',
+    link: 'https://instagram.com/sjun.me',
   },
+  {
+    label: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/themrsung',
+  },
+  {
+    label: 'Class101',
+    link: 'https://101.sjun.me/'
+  }
 ]
 
 export const EMAIL = 'biz@sjun.me'

@@ -137,7 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            미래를 선도하는 디지털 컨텐츠를 제공합니다.
+            경제를 보는 새로운 관점.
           </p>
         </div>
       </motion.section>
